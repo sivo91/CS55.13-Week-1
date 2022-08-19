@@ -1,5 +1,8 @@
+// Peter Sivak 8/18/22 Server Side
+
 const http = require('http')
 
+// create server
 const server = http.createServer((req, res) => {
   
   res.writeHead(200, {'content-type': 'text/html'})
